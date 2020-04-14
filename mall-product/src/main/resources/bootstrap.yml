@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: mall-product
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 182.92.89.118:8848
+      config:
+        # 配置中心的地址
+        server-addr: 182.92.89.118:8848
+        # 指定配置文件格式，相当于gitee上的那个文件
+        file-extension: yaml
+        # 分组
+        group: DEFAULT_GROUP
+        # 命名空间
+        namespace: 9db2f550-3e76-473f-90c2-65e6c0ac035c

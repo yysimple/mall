@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    alicloud:
+      access-key: LTAI4FqsSbxAqQcfKyTfPheU
+      secret-key: iGFEJYhfUjtJPXWsWuU3wGmRJ9dCBy
+      oss:
+        endpoint: oss-cn-beijing.aliyuncs.com
+        bucket: mall-itman
+    nacos:
+      discovery:
+        server-addr: 182.92.89.118:8848
+  application:
+    name: mall-third-party
+
+
+server:
+  port: 30000
