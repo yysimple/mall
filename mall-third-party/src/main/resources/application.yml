@@ -4,8 +4,8 @@ spring:
       access-key: your 
       secret-key: your
       oss:
-        endpoint: oss-cn-beijing.aliyuncs.com
-        bucket: mall-itman
+        endpoint: your
+        bucket: your
     nacos:
       discovery:
         server-addr: 182.92.89.118:8848
