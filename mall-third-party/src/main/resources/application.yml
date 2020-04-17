@@ -1,8 +1,8 @@
 spring:
   cloud:
     alicloud:
-      access-key: LTAI4FqsSbxAqQcfKyTfPheU
-      secret-key: iGFEJYhfUjtJPXWsWuU3wGmRJ9dCBy
+      access-key: your 
+      secret-key: your
       oss:
         endpoint: oss-cn-beijing.aliyuncs.com
         bucket: mall-itman
